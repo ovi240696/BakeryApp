@@ -8,7 +8,12 @@ class Header extends Component {
 				<nav className="navbar navbar-expand-lg navbar-dark bg-dark static-top">
 					<div className="container">
 						<a className="navbar-brand" href="#">
-							<img src="assets/images/header-logo.png" alt="" />
+							<img
+								src="./assets/images/logo.jpg"
+								alt="Logo"
+								height="70px"
+								width="70px"
+							/>
 						</a>
 						<button
 							className="navbar-toggler"
