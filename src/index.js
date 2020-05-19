@@ -1,11 +1,10 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import "./index.css";
-import App from "./App";
+// import App from "./App";
 import * as serviceWorker from "./serviceWorker";
 import Header from "./Components/Header/Header";
 import "bootstrap/dist/css/bootstrap.css";
-
 ReactDOM.render(
 	<React.StrictMode>
 		{/* <App /> */}
