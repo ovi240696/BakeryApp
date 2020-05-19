@@ -5,13 +5,6 @@ import App from "./App";
 import * as serviceWorker from "./serviceWorker";
 import Header from "./Components/Header/Header";
 import "bootstrap/dist/css/bootstrap.css";
-// import "./assets/css/flex-slider.css";
-// import "./assets/css/fontawesome.css";
-// import "./assets/css/owl.css";
-// import "./assets/css/tooplate-main.css";
-// import "https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700";
-// import "./public/js/owl.js";
-// import "./public/js/custom.js";
 
 ReactDOM.render(
 	<React.StrictMode>
