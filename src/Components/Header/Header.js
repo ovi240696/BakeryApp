@@ -9,9 +9,9 @@ class Header extends Component {
 					<a href="#home" className="active">
 						Home
 					</a>
-					<a href="#news">About</a>
-					<a href="#contact">Gallery</a>
-					<a href="#about">Contact</a>
+					<a href="#about">About</a>
+					<a href="#gallery">Gallery</a>
+					<a href="#contact">Contact</a>
 					<a
 						href="javascript:void(0);"
 						className="icon"
