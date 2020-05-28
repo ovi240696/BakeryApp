@@ -1,11 +1,6 @@
 import React from "react";
 
 function AboutContent() {
-	return (
-		<div className="AboutContent">
-			<h1> Hello About</h1>
-		</div>
-	);
+	return <h1> Hello About </h1>;
 }
-
 export default AboutContent;
