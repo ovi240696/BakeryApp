@@ -1,20 +1,22 @@
 import React from "react";
 // import "./App.css";
-import { Link } from "react-router-dom ";
+import { Link } from "react-router-dom";
 function NavBar() {
-	const NAVSTYLE = {
-		color: "white",
-	};
-
 	return (
 		<nav>
 			<ul className="nav-links">
-				<Link style={NAVSTYLE} to="/home">
+				<Link to="/">
 					<li> Home</li>
 				</Link>
-				<li> About</li>
-				<li> Contact</li>
-				<li> Gallery</li>
+				<Link to="/about">
+					<li> About</li>
+				</Link>
+				<Link to="/contact">
+					<li> Contact</li>
+				</Link>
+				<Link to="/gallery">
+					<li> Gallery</li>
+				</Link>
 			</ul>
 		</nav>
 	);
