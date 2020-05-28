@@ -4,11 +4,20 @@ import "./index.css";
 // import App from "./App";
 import * as serviceWorker from "./serviceWorker";
 import Header from "./Components/Header/Header";
+import Home from "./Components/Pages/Home/Home";
+import About from "./Components/Pages/About/About";
+import Gallery from "./Components/Pages/Gallery/Gallery";
+import Contact from "./Components/Pages/Contact/Contact";
+
 import "bootstrap/dist/css/bootstrap.css";
 ReactDOM.render(
 	<React.StrictMode>
 		{/* <App /> */}
 		<Header />
+		<Home />
+		<About />
+		<Gallery />
+		<Contact />
 	</React.StrictMode>,
 	document.getElementById("root")
 );
